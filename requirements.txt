@@ -1,0 +1,12 @@
+
+pandas
+numpy
+scikit-learn
+xgboost
+betacal
+scikit-posthocs
+scipy
+matplotlib
+seaborn
+ucimlrepo
+ 
