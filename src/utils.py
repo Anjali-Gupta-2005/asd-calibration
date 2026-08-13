@@ -12,7 +12,9 @@ import random
 import numpy as np
 
 import config as cfg
-
+import pandas as pd
+import pickle
+from config import PATH_PROCESSED, PATH_SPLITS
 
 def set_seed(seed=cfg.SEED):
     """Sets every relevant random seed. Call this at the top of every script."""
@@ -65,3 +67,10 @@ def load_calibrated_probs(cohort, model, method, fold):
     _check_valid_name(cohort, model)
     fname = f"{cohort}_{model}_{method}_fold{fold}_testslice_probs.npy"
     return np.load(os.path.join(cfg.PATH_CALIBRATED, fname))
+
+def load_fold(cohort, fold):
+    """Loads clean data + split indices for one cohort/fold. Returns (df, idx_dict)."""
+    df = pd.read_csv(f"{PATH_PROCESSED}{cohort}_clean.csv")
+    with open(f"{PATH_SPLITS}{cohort}_fold{fold}.pkl", "rb") as f:
+        idx = pickle.load(f)
+    return df, idx

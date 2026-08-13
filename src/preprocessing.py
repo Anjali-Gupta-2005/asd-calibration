@@ -86,6 +86,13 @@ def clean_missing_and_types(df):
 
     # numeric
     df["age"] = pd.to_numeric(df["age"], errors="coerce")
+
+    # known data-entry error in the UCI adult dataset: at least one row has
+    # age=383, which is physically impossible. Treat implausible ages as
+    # missing so they get imputed like any other missing value, rather than
+    # silently corrupting scale-sensitive models (SVM, KNN).
+    df.loc[df["age"] > 100, "age"] = np.nan
+
     df["age"] = df["age"].fillna(df["age"].median())
 
     # categorical -> mode
