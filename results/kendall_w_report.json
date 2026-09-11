@@ -1,0 +1,221 @@
+{
+  "ece": {
+    "kendalls_w": {
+      "W": 0.85,
+      "chi2_stat": 13.6,
+      "df": 4,
+      "p_value": 0.008687446153189504,
+      "significant_agreement": true,
+      "n_raters_cohorts": 4,
+      "n_items_methods": 5
+    },
+    "per_cohort_ranks": {
+      "toddler": {
+        "platt": 5.0,
+        "temperature": 4.0,
+        "histbin": 2.0,
+        "isotonic": 1.0,
+        "beta": 3.0
+      },
+      "child": {
+        "platt": 5.0,
+        "temperature": 4.0,
+        "histbin": 2.0,
+        "isotonic": 1.0,
+        "beta": 3.0
+      },
+      "adolescent": {
+        "platt": 5.0,
+        "temperature": 2.0,
+        "histbin": 4.0,
+        "isotonic": 1.0,
+        "beta": 3.0
+      },
+      "adult": {
+        "platt": 5.0,
+        "temperature": 4.0,
+        "histbin": 2.0,
+        "isotonic": 1.0,
+        "beta": 3.0
+      }
+    },
+    "per_cohort_mean_values": {
+      "toddler": {
+        "platt": 0.088,
+        "temperature": 0.0251,
+        "histbin": 0.0186,
+        "isotonic": 0.0177,
+        "beta": 0.0211
+      },
+      "child": {
+        "platt": 0.1897,
+        "temperature": 0.0902,
+        "histbin": 0.0784,
+        "isotonic": 0.0669,
+        "beta": 0.086
+      },
+      "adolescent": {
+        "platt": 0.2562,
+        "temperature": 0.1199,
+        "histbin": 0.1373,
+        "isotonic": 0.1066,
+        "beta": 0.1314
+      },
+      "adult": {
+        "platt": 0.1022,
+        "temperature": 0.0564,
+        "histbin": 0.0429,
+        "isotonic": 0.0399,
+        "beta": 0.0441
+      }
+    }
+  },
+  "brier": {
+    "kendalls_w": {
+      "W": 0.8875,
+      "chi2_stat": 14.2,
+      "df": 4,
+      "p_value": 0.00668334987845387,
+      "significant_agreement": true,
+      "n_raters_cohorts": 4,
+      "n_items_methods": 5
+    },
+    "per_cohort_ranks": {
+      "toddler": {
+        "platt": 5.0,
+        "temperature": 1.0,
+        "histbin": 4.0,
+        "isotonic": 3.0,
+        "beta": 2.0
+      },
+      "child": {
+        "platt": 5.0,
+        "temperature": 3.0,
+        "histbin": 4.0,
+        "isotonic": 2.0,
+        "beta": 1.0
+      },
+      "adolescent": {
+        "platt": 5.0,
+        "temperature": 3.0,
+        "histbin": 4.0,
+        "isotonic": 2.0,
+        "beta": 1.0
+      },
+      "adult": {
+        "platt": 5.0,
+        "temperature": 3.0,
+        "histbin": 4.0,
+        "isotonic": 2.0,
+        "beta": 1.0
+      }
+    },
+    "per_cohort_mean_values": {
+      "toddler": {
+        "platt": 0.0397,
+        "temperature": 0.0274,
+        "histbin": 0.0306,
+        "isotonic": 0.0287,
+        "beta": 0.0281
+      },
+      "child": {
+        "platt": 0.1277,
+        "temperature": 0.0907,
+        "histbin": 0.1005,
+        "isotonic": 0.0891,
+        "beta": 0.089
+      },
+      "adolescent": {
+        "platt": 0.1816,
+        "temperature": 0.1029,
+        "histbin": 0.1469,
+        "isotonic": 0.0993,
+        "beta": 0.099
+      },
+      "adult": {
+        "platt": 0.0686,
+        "temperature": 0.0584,
+        "histbin": 0.0643,
+        "isotonic": 0.0571,
+        "beta": 0.0549
+      }
+    }
+  },
+  "mce": {
+    "kendalls_w": {
+      "W": 0.8125,
+      "chi2_stat": 13.0,
+      "df": 4,
+      "p_value": 0.011275793947331803,
+      "significant_agreement": true,
+      "n_raters_cohorts": 4,
+      "n_items_methods": 5
+    },
+    "per_cohort_ranks": {
+      "toddler": {
+        "platt": 3.0,
+        "temperature": 5.0,
+        "histbin": 1.0,
+        "isotonic": 2.0,
+        "beta": 4.0
+      },
+      "child": {
+        "platt": 3.0,
+        "temperature": 5.0,
+        "histbin": 1.0,
+        "isotonic": 2.0,
+        "beta": 4.0
+      },
+      "adolescent": {
+        "platt": 5.0,
+        "temperature": 4.0,
+        "histbin": 1.0,
+        "isotonic": 3.0,
+        "beta": 2.0
+      },
+      "adult": {
+        "platt": 3.0,
+        "temperature": 5.0,
+        "histbin": 1.0,
+        "isotonic": 2.0,
+        "beta": 4.0
+      }
+    },
+    "per_cohort_mean_values": {
+      "toddler": {
+        "platt": 0.3787,
+        "temperature": 0.4336,
+        "histbin": 0.2031,
+        "isotonic": 0.3137,
+        "beta": 0.4053
+      },
+      "child": {
+        "platt": 0.371,
+        "temperature": 0.4546,
+        "histbin": 0.3235,
+        "isotonic": 0.3671,
+        "beta": 0.3959
+      },
+      "adolescent": {
+        "platt": 0.4659,
+        "temperature": 0.4151,
+        "histbin": 0.3365,
+        "isotonic": 0.4082,
+        "beta": 0.3971
+      },
+      "adult": {
+        "platt": 0.4088,
+        "temperature": 0.5037,
+        "histbin": 0.2965,
+        "isotonic": 0.3032,
+        "beta": 0.4401
+      }
+    }
+  },
+  "cross_metric_consistency": {
+    "ece_w": 0.85,
+    "brier_w": 0.8875,
+    "mce_w": 0.8125,
+    "consistent": true
+  }
+}

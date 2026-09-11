@@ -1,0 +1,38 @@
+======================================================================
+FRIEDMAN TEST (ECE, cohort x model as blocks)
+======================================================================
+chi2 = 56.5826
+p-value = 0.000000
+n_blocks = 36
+Significant at alpha=0.05: True
+
+----------------------------------------------------------------------
+NEMENYI POST-HOC
+----------------------------------------------------------------------
+Mean ranks per method (lower = better):
+method
+platt          4.472
+temperature    3.278
+histbin        2.639
+isotonic       1.778
+beta           2.833
+
+Critical difference (alpha=0.05): 1.0166
+
+Pairwise mean-rank differences:
+             platt  temperature  histbin  isotonic   beta
+platt        0.000        1.194    1.833     2.694  1.639
+temperature  1.194        0.000    0.639     1.500  0.444
+histbin      1.833        0.639    0.000     0.861  0.194
+isotonic     2.694        1.500    0.861     0.000  1.056
+beta         1.639        0.444    0.194     1.056  0.000
+
+Significant pairwise differences:
+             platt  temperature  histbin  isotonic   beta
+platt        False         True     True      True   True
+temperature   True        False    False      True  False
+histbin       True        False    False     False  False
+isotonic      True         True    False     False   True
+beta          True        False    False      True  False
+
+Method pairs that differ significantly: [('platt', 'temperature'), ('histbin', 'platt'), ('isotonic', 'platt'), ('isotonic', 'temperature'), ('beta', 'platt'), ('beta', 'isotonic')]
